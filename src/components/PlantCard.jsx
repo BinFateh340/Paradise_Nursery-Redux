@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Button } from '../components/ui/button';
+import { Button } from '../components/ui/Button';
 import { addToCart } from '../store/cartSlice';
 
 export default function PlantCard({ plant }) {
